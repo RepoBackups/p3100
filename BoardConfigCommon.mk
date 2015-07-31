@@ -102,7 +102,8 @@ BOARD_SEPOLICY_UNION += \
     geomagneticd.te \
     orientationd.te \
     gpsd.te \
-    smc_pa.te
+    smc_pa.te \
+    sysinit.te
 
 TARGET_NEEDS_NON_PIE_SUPPORT := true
 
